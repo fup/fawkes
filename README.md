@@ -2,6 +2,20 @@
 
 To start your new Phoenix application you have to:
 
+## Production
+
+```
+git push heroku master
+```
+
+or if you are in a dev branch:
+
+```
+git push heroku <dev_branch>:master
+```
+
+## Development
+
 1. Install dependencies with `mix deps.get`
 2. Start Phoenix router with `mix phoenix.start`
 
