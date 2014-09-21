@@ -7,20 +7,20 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Hello Phoenix!</title>
+    <title>Fawkes is an MFN Phoenix!</title>
     <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="/css/custom.css">
   </head>
 
   <body>
     <div class="container">
       <div class="header">
-        <ul class="nav nav-pills pull-right">
-          <li><a href="https://github.com/phoenixframework/phoenix">Get Started</a></li>
-        </ul>
-        <span class="logo"></span>
+        <h1>What Does the Fawkes Say?</h1>
       </div>
 
-      <%= @inner %>
+      <div class="content-primary">
+        <%= @inner %>
+      </div>
 
       <div class="footer">
         <p><a href="http://phoenixframework.org">phoenixframework.org</a></p>

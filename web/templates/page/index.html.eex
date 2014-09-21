@@ -1,34 +1,20 @@
 <div class="jumbotron">
-  <h2>Welcome to Phoenix!</h2>
-  <p class="lead">Phoenix is an Elixir Web Framework targeting full-featured, fault tolerant applications with realtime functionality.</p>
+  <h2>Dat Functional Phoenix</h2>
+
+  <p class="lead">
+    Fawkes is the bee's knees of fictional birds, the most excellent of
+    dialogue-less characters, and Dumbledore's main homie.
+  </p>
 </div>
 
-<div class="row marketing">
-  <div class="col-lg-6">
-    <h4>Resources</h4>
-    <ul>
-      <li>
-        <a href="http://api.phoenixframework.org/">Docs</a>
-      </li>
-      <li>
-        <a href="https://github.com/phoenixframework/phoenix">Source</a>
-      </li>
-    </ul>
+
+<img src="images/fawkes.gif" class="img-responsive img-medium img-center" alt="Fawkes and Harry Potter">
+
+<form class="form-inline text-center" role="form" action="" method="post">
+  <div class="form-group">
+    <label for="name">Respawn that mofo</label>
+    <input type="text" name="name" class="form-control" id="name" placeholder="how many times?">
   </div>
 
-  <div class="col-lg-6">
-    <h4>Help</h4>
-    <ul>
-      <li>
-        <a href="https://github.com/phoenixframework/phoenix/issues?state=open">Issues</a>
-      </li>
-      <li>
-        <a href="irc://irc.freenode.net/elixir-lang">#elixir-lang on freenode IRC</a>
-      </li>
-      <li>
-        <a href="https://twitter.com/chris_mccord">@chris_mccord</a>
-      </li>
-    </ul>
-  </div>
-</div>
-
+  <button type="submit" class="btn btn-primary">Do It!</button>
+</form>
