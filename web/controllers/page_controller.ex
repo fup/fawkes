@@ -12,4 +12,8 @@ defmodule Fawkes.PageController do
   def error(conn, _params) do
     render conn, "error"
   end
+
+  def fibonacci(conn, _params) do
+    render conn, "fibonacci"
+  end
 end
