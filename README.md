@@ -25,3 +25,10 @@ Now you can visit `localhost:4000` from your browser.
 ## Notes
 
 * If you choose to change the application's structure, you could manually start the router from your code like this `Fawkes.Router.start`
+
+## Links for learning:
+
+* https://github.com/dojo-toulouse/elixir-koans
+* http://learnyousomeerlang.com/content
+* https://github.com/oreillymedia/etudes-for-elixir
+* https://github.com/seven1m/30-days-of-elixir
