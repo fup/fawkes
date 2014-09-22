@@ -1,0 +1,1 @@
+Your <%= @nnumber %> fibonacci number is: <%= @result %>

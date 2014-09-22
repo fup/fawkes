@@ -12,4 +12,10 @@ defmodule Fawkes.PageController do
   def error(conn, _params) do
     render conn, "error"
   end
+
+  def fibonacci(conn, _params) do
+    {n,_} = Integer.parse(_params["nth"])
+    r = Fibonacci.fastfib(n)
+    render conn, "fibonacci", [nnumber: n,result: r]
+  end
 end
