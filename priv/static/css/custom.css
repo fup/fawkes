@@ -1,0 +1,11 @@
+.content-primary {
+  padding: 0 0 2em 0;
+}
+
+.img-medium {
+  max-width: 300px;
+}
+
+.img-center {
+  margin: 0 auto;
+}
